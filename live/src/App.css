@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+  background-color: aquamarine;
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+}
+/* ----------------------------NAV STYLE-------------------------------------  */
+
+nav{
+  color: white;
+  background-color: gray;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo h1{
+  font-family: 'Bruno Ace SC', cursive;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+#search-bar input{
+  width: 300px;
+  height: 35px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+#search-bar button{
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  margin-left: -80px;
+  font-size: 15px;
+}
+#add-movie a{
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+#add-movie a:hover{
+  background-color: white;
+  color: rgb(6, 6, 63);
+}
+
+
+/* ----------------------------HOME STYLE-------------------------------------  */
+
+.home{
+  padding: 20px 100px;
+}
+
+.movies{
+  width: 80vw;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.movie{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding: 12px;
+  border: solid 1px black;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.movie{
+  color: black;
+  text-decoration: none;
+}
+.movie img{
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+.movie:hover{
+  transform: scale(1.05);
+}
+#title{
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: sticky;
+  top: 70px;
+  z-index: 100;
+}
